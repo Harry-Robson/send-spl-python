@@ -1,4 +1,4 @@
-# python-solana-spl
+# send-spl-python
 Send Solana SPL tokens by pushing commands the command line and interacting with spl-token and the Solana Tool Suite.
 
 ## Prerequisites 
@@ -7,7 +7,6 @@ Send Solana SPL tokens by pushing commands the command line and interacting with
 * [Python 3.10 or higher](https://www.python.org/download/releases/3.1/)
 
 ## Getting Started
-
 ### Create and set keypair
 * Open the command prompt and generate a new keypair. To do this, type ```solana-keygen new --outfile <path>```
 * Set your default keypair in the Solana Tool Suite by typing ```solana config set -k <path of keyfile we just created>```

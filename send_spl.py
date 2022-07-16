@@ -17,5 +17,8 @@ def send_spl():
     else:
         print("ERROR: " + str(send_process.returncode))
         
-#Call the function
+token_address = ""
+recipient_address= ""
+amount = "" #decimal allowed unless token is nft
+
 send_spl(token_address, recipient_address, amount)

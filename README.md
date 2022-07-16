@@ -15,6 +15,13 @@ Send Solana SPL tokens by pushing commands the command line and interacting with
 * Either by importing your keypair into Phantom wallet or by using the ```solana address``` command you will be able to see your address. Fund this address on the devnet by using ```solana airdrop 1 <address>``` or on mainnet by sending Solana from an exchange.
 * Confirm that you are funded by using command ```solana balance```
 
+### Create an SPL token
+For more detailled token creation instructions refer to the spl-token docs. This method creates a default token with an unfixed supply of 100 as well as an account to hold them.
+
+* ```spl-token create-token``` will create a token and print token address
+* ```spl-token create-account <token address>``` will create an account for said token
+* ```spl-token mint <token address> 100``` mint 100 of said token to default wallet
+
 ### Declare function variables in send_spl.py
 * ```token_address``` is the address of the token (including NFTs) that you would like to send
 * ```recipient_address``` is the address of the recipient

@@ -24,4 +24,5 @@ Send Solana SPL tokens by pushing commands the command line and interacting with
 
 ### Call the send_spl() function
 ```send_spl(token_address, recipient_address, amount)```
+
 The function will either print ```ERROR``` or ```SUCCESS``` depending on the subprocess exitcode.
